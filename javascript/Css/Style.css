@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+.navbar-brand{
+    font-family: 'Fjalla One', sans-serif;
+}
+nav img{
+    max-width: 64px;
+    max-height: 64px;
+    object-fit: scale-down;
+    border-radius: 30%;
+}
+main{
+    text-align: center;
+}
+#messengers{
+    padding: 5px 8px;
+    width: 98%;
+    min-height: 280px;
+    border-radius: 14px;
+    border: 1px solid rgb(131, 131, 131);
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 47%;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px;
+}
+#remove{
+    font-weight: bold;
+    background-color: rgb(218, 47, 47);
+    color: white;
+}
+#play{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+#title-result{
+    padding: 10px;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    margin: 8px 0px;
+    font-weight: bold;
+} 
+#result{
+    max-width: 100% !important;
+}
+@media screen  and (min-width: 365px) and (max-width: 1046px){
+    #buttons{
+        display: flex;
+        justify-content: center;
+    }
+    #buttons button{
+        margin: 4px 20px;
+        width: 60%;
+        border-radius: 12px;
+        border: 0px;
+        padding: 12px 0px;
+    }
+}
